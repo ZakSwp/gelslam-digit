@@ -6,3 +6,6 @@ __pycache__/
 .vscode/
 .idea/
 *.swp
+data/sample_data.zip
+src/resources/example_calibration/
+*.avi

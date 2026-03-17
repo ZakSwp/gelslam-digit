@@ -1,19 +1,19 @@
 # Configuration of the Device
 device_config:
   # Device Name
-  device_name: "GelSight Mini"
-  # Each pixel represents how many millimeters
-  ppmm: 0.0634
-  # Resized image width and height
+  device_name: "DIGIT"
+  # Pixel Per Millimeter
+  ppmm: 0.0405
+  # Desired Image Width and Height should be equivalent to resized
   imgh: 240
   imgw: 320
   # Raw image width, height, and framerate
-  raw_imgh: 2464
-  raw_imgw: 3280
-  framerate: 25
+  raw_imgh: 480
+  raw_imgw: 640
+  framerate: 60
   # Path to calibration model (absolute, or relative to this config file)
-  # Calibration instruction: https://github.com/joehjhuang/gs_sdk/blob/master/calibration/README.md
-  calibration_model_path: "/home/zakaria/Desktop/gelslam/gelslam/data/nnmodel_gsmini.pth"
+  calibration_model_path: "/home/zakaria/Desktop/gelslam/gelslam/src/gelslam/resources/example_calibration/model/nnmodel_digit.pth"
+
 
 # Configuration of how contact mask is thresholded
 contact_mask_config:
