@@ -9,3 +9,5 @@ __pycache__/
 data/sample_data.zip
 src/resources/example_calibration/
 *.avi
+*.ply
+*.png
