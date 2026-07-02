@@ -67,7 +67,7 @@ Experience GelSLAM’s real-time reconstruction by replaying our sample GelSight
 1.  **Download Sample Data**:
     ```bash
     bash download_sample_data.sh
-    
+
 
 2.  **Run Real-Time Reconstruction**:
     ```bash
@@ -109,8 +109,10 @@ GelSLAM supports three reconstruction modes depending on the tactile data source
 Run real-time reconstruction directly on your own GelSight Mini sensor.
 ```bash
 ros2 launch gelslam live_demo_launch.py data_dir:=<path_to_save_data> config_path:=<path_to_config>
-ros2 launch gelslam live_demo_launch.py data_dir:=/home/zakaria/Desktop/gelslam/gelslam/data/digit_data config_path:=/home/zakaria/Desktop/gelslam/gelslam/src/gelslam/config/config_digit.yaml
-ros2 launch gelslam live_demo_launch.py data_dir:=/home/zakaria/Desktop/gelslam/gelslam/data/gsmini_data_2 config_path:=/home/zakaria/Desktop/gelslam/gelslam/src/gelslam/config/config_gsmini.yaml
+ros2 launch gelslam live_demo_launch.py data_dir:=/home/zakaria/Desktop/gelslam-digit/data/digit_data config_path:=/home/zakaria/Desktop/gelslam-digit/src/gelslam/config/config_digit.yaml
+ros2 launch gelslam live_demo_launch.py data_dir:=./data/digit_data config_path:=./src/gelslam/config/config_digit.yaml
+ros2 launch gelslam live_demo_launch.py data_dir:=/home/zakaria/Desktop/gelslam-digit/data/gsmini_data config_path:=/home/zakaria/Desktop/gelslam-digit/src/gelslam/config/config_gsmini.yaml
+ros2 launch gelslam live_demo_launch.py data_dir:=./data/gsmini_data config_path:=./src/gelslam/config/config_gsmini.yaml
 
 ```
 

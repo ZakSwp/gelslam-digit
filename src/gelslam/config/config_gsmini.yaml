@@ -12,7 +12,7 @@ device_config:
   raw_imgw: 3280
   framerate: 25
   # Path to calibration model (absolute, or relative to this config file)
-  calibration_model_path: "/home/zakaria/Desktop/gelslam/gelslam/src/gelslam/resources/example_calibration/model/nnmodel_gsmini.pth"
+  calibration_model_path: "/home/zakaria/Desktop/gelslam-digit/src/gelslam/resources/example_calibration/model/nnmodel_gsmini.pth"
 
 # Configuration of how contact mask is thresholded
 contact_mask_config:
@@ -32,4 +32,3 @@ gelslam_config:
     min_sift_inliers: 8
     scr_threshold: 0.3
     ccs_threshold: 0.7
-
