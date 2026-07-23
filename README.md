@@ -112,7 +112,9 @@ ros2 launch gelslam live_demo_launch.py data_dir:=<path_to_save_data> config_pat
 ros2 launch gelslam live_demo_launch.py data_dir:=/home/zakaria/Desktop/gelslam-digit/data/digit_data config_path:=/home/zakaria/Desktop/gelslam-digit/src/gelslam/config/config_digit.yaml
 ros2 launch gelslam live_demo_launch.py data_dir:=./data/digit_data config_path:=./src/gelslam/config/config_digit.yaml
 ros2 launch gelslam live_demo_launch.py data_dir:=/home/zakaria/Desktop/gelslam-digit/data/gsmini_data config_path:=/home/zakaria/Desktop/gelslam-digit/src/gelslam/config/config_gsmini.yaml
-ros2 launch gelslam live_demo_launch.py data_dir:=./data/gsmini_data config_path:=./src/gelslam/config/config_gsmini.yaml
+ros2 launch gelslam live_demo_launch.py data_dir:=./data/gsmini_data config_path:=/home/zakaria/Desktop/gelslam-digit/src/gelslam/config/config_gsmini.yaml
+
+ros2 launch gelslam live_demo_launch.py data_dir:=/home/zakaria/Desktop/gelslam-digit/data/gsmini_data config_path:=/home/zakaria/Desktop/gelslam-digit/src/gelslam/config/config_gsmini.yaml skip_background_check:=True
 
 ```
 
